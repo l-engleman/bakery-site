@@ -1,6 +1,47 @@
 
-
-header {
+.header {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
+    padding: 20px;
+/*just added a border to see, will delete*/
+    border: 6px solid red;
+}
+
+.header img {
+    height: 60px;
+    width: 60px;
+}
+
+.header a {
+    text-decoration: none;
+}
+
+.sidelinks {
+}
+
+img {
+    height: 300px;
+    width: 300px;
+}
+.hero-image {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #1F2937;
+    /*added another border to see*/
+    border: 6px solid red;
+    padding: 20px;
+    gap: 20px;
+}
+.hero-image h2 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+.hero-image p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.hero-text {
+    width: 50%;
 }
