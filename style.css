@@ -9,8 +9,8 @@ body {
 }
 
 .header img {
-    height: 60px;
-    width: 60px;
+    height: 80px;
+    width: 80px;
 }
 
 .header a {
@@ -42,6 +42,19 @@ img {
 }
 .hero-text {
     width: 50%;
+}
+.hero-image img {
+    border: 6px solid black;
+    border-radius: 20px;
+}
+.hero-text button {
+    background-color: #3882F6;
+    border-radius: 6px;
+    height: 40px;
+    width: 150px;
+    color: #E5E7EB;
+    font-weight: 700;
+    font-size: 16px;
 }
 
 .products {
@@ -79,16 +92,39 @@ img {
 }
 .quote p {
     text-align: center;
+    max-width: 600px;
+}
+.quote-box {
+    align-self: flex-end;
 }
 .action-container {
     display: flex;
     justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
 }
 .action-box {
     background-color: #3882F6;
-    height: 300px;
+    height: 150px;
     width: 800px;
+    border-radius: 15px;
+    padding: 30px;
 }
 .action-box button {
     background-color: #3882F6;
+    border-radius: 6px;
+    margin-left: auto;
+    align-self: flex-end;
+}
+
+
+
+
+
+footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    text-align: center;
+    font-size: 22px;
+    padding: 10px;
 }
